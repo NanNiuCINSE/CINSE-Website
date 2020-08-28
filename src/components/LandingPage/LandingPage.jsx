@@ -1,13 +1,12 @@
 import React, { Fragment } from 'react';
 import './LandingPage.css';
+import Header from '../Header/Header';
 
 const LandingPage = () => {
 	return (
 		<Fragment>
 			<div className='logo-container'></div>
-			<div className='navigation'>
-				<div className='navigation-tabs'></div>
-			</div>
+			<Header />
 		</Fragment>
 	);
 };
