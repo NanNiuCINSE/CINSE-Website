@@ -2,3 +2,12 @@
 	width: 100vw;
 	height: 10rem;
 }
+
+.landing-container {
+	width: 100vw;
+	height: 40rem;
+	/* border: 1px solid; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
