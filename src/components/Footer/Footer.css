@@ -1,0 +1,50 @@
+.footer-container {
+	width: 100vw;
+	/* height: 14rem; */
+	flex: 1;
+	border: 1px solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: black;
+	color: white;
+}
+
+.footer {
+	width: 60vw;
+	height: 10rem;
+	/* border: 1px solid red; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer > p {
+	padding: 0.1rem;
+}
+
+.footer-text {
+	font-size: 1rem;
+	font-weight: bold;
+	color: red;
+}
+
+.footer-links {
+	width: inherit;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-links > a {
+	font-size: 1rem;
+	font-weight: bold;
+	color: red;
+	text-decoration: none;
+}
+
+.footer-last-link > a {
+	font-size: 1rem;
+	font-weight: bold;
+	color: red;
+	text-decoration: none;
+}
