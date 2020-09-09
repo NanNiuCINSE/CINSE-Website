@@ -19,6 +19,7 @@ const News = () => {
 				<div className='news'>
 					<ul>{newsItems}</ul>
 				</div>
+				<button className='newsButton'>...Read More</button>
 			</div>
 		</aside>
 	);
