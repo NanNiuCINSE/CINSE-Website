@@ -1,6 +1,6 @@
 import React from 'react';
 import './Profile.css';
-import professor from '../../resources/Images/nan_main1.jpg';
+import professor from '../../resources/Images/nan.jpg';
 
 const Profile = () => {
 	return (
