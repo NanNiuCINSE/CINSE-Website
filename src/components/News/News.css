@@ -17,9 +17,11 @@
 
 .news-container {
 	width: 43rem;
-	height: 29rem;
+	height: 26rem;
 	border: 1px solid;
 	border-radius: 1rem;
+	display: flex;
+	flex-direction: column;
 }
 
 .news {
@@ -30,4 +32,17 @@
 
 .news-item {
 	padding-bottom: 0.5rem;
+}
+
+.newsButton {
+	width: 8rem;
+	height: 2rem;
+	align-self: flex-end;
+	margin: 0rem rem 1rem 0rem;
+	border: none;
+	background: none;
+	cursor: pointer;
+	font-size: 0.9rem;
+	font-weight: 500;
+	color: red;
 }
