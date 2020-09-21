@@ -1,19 +1,17 @@
 .footer-container {
-	width: 100vw;
-	/* height: 14rem; */
+	width: 100%;
 	flex: 1;
-	border: 1px solid;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background: black;
 	color: white;
+	box-sizing: border-box;
 }
 
 .footer {
 	width: 60vw;
 	height: 10rem;
-	/* border: 1px solid red; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
