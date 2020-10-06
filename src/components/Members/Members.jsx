@@ -1,6 +1,5 @@
 import React from 'react';
 import './Members.css';
-import { Link } from 'react-router-dom';
 import * as MembersData from './Members.data';
 
 const Members = () => {
