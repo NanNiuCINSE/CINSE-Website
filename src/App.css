@@ -10,3 +10,8 @@
 	display: flex;
 	flex-direction: column;
 }
+
+.logo-container {
+	width: 100vw;
+	height: 10rem;
+}

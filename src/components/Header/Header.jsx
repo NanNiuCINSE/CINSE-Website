@@ -1,31 +1,32 @@
 import React, { Fragment } from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
 	return (
 		<Fragment>
 			<div className='navigation'>
-				<a href='#' className='navigation-tabs'>
+				<Link to='/' className='navigation-tabs'>
 					Home
-				</a>
-				<a href='#' className='navigation-tabs'>
+				</Link>
+				<Link to='/members' className='navigation-tabs'>
 					Members
-				</a>
-				<a href='#' className='navigation-tabs'>
+				</Link>
+				<Link to='/projects' className='navigation-tabs'>
 					Projects
-				</a>
-				<a href='#' className='navigation-tabs'>
+				</Link>
+				<Link to='/news' className='navigation-tabs'>
 					News
-				</a>
-				<a href='#' className='navigation-tabs'>
+				</Link>
+				<Link to='/publications' className='navigation-tabs'>
 					Publications
-				</a>
-				<a href='#' className='navigation-tabs'>
+				</Link>
+				<Link to='/tools' className='navigation-tabs'>
 					Data/Tools
-				</a>
-				<a href='#' className='navigation-tabs'>
+				</Link>
+				<Link to='/contact' className='navigation-tabs'>
 					Contact Us
-				</a>
+				</Link>
 			</div>
 		</Fragment>
 	);
