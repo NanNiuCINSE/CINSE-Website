@@ -1,0 +1,73 @@
+.project-container {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.project-wrapper {
+	width: 90%;
+	padding: 2rem 0 2rem 0;
+}
+.project-header {
+	font-size: 40px;
+	font-weight: 500;
+	padding-bottom: 1rem;
+	position: relative;
+}
+
+.project-header::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 20rem;
+	height: 0.3rem;
+	background: red;
+}
+
+.research-header {
+	font-size: 25px;
+	font-weight: 500;
+	padding-bottom: 1rem;
+	position: relative;
+}
+
+.research-header::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 80%;
+	height: 0.3rem;
+	background: black;
+}
+
+.research-project {
+	margin-top: 2rem;
+	border: 1px solid red;
+	border-radius: 1rem;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	padding: 1rem 2rem 0 2rem;
+}
+
+.research-desc {
+	font-size: 16px;
+	font-weight: 400;
+	padding: 0.5rem 0 0.5rem 0;
+}
+
+.research-members {
+	padding: 0.5rem 0 0.5rem 0;
+}
+
+.research-member-header {
+	font-weight: 500;
+	padding-right: 0.5rem;
+}
+
+.research-publication-list {
+	padding: 0.5rem 0.5rem 0.5rem 1rem;
+	font-size: 16px;
+	font-weight: 400;
+}

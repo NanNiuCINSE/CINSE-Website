@@ -1,9 +1,11 @@
 .members-container {
-	flex: 1;
+	/* flex: 1; */
+	/* min-width: 100%; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	overflow: auto;
+	/* overflow-x: hidden; */
+	/* overflow: auto; */
 }
 .card-container {
 	max-width: 66rem;

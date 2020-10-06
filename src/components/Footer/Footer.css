@@ -1,5 +1,6 @@
 .footer-container {
-	width: 100%;
+	min-width: 100%;
+	min-height: 12rem;
 	flex: 1;
 	display: flex;
 	justify-content: center;
