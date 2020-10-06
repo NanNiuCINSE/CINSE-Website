@@ -11,8 +11,3 @@
 	flex-direction: column;
 	overflow-x: hidden;
 }
-
-.logo-container {
-	width: 100vw;
-	min-height: 10rem;
-}

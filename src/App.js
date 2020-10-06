@@ -5,6 +5,7 @@ import LandingPage from './components/LandingPage/LandingPage';
 import Members from './components/Members/Members';
 import Footer from './components/Footer/Footer';
 import Project from './components/Projects/Project';
+import Logo from './components/Logo/Logo';
 import { Switch, Route } from 'react-router-dom';
 
 // import Route from 'react-router-dom/Route';
@@ -12,7 +13,7 @@ import { Switch, Route } from 'react-router-dom';
 const App = () => {
 	return (
 		<div className='main-container'>
-			<div className='logo-container'></div>
+			<Logo />
 			<Header />
 			<Switch>
 				<Route path='/' component={LandingPage} exact />
