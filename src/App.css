@@ -9,9 +9,10 @@
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
+	overflow-x: hidden;
 }
 
 .logo-container {
 	width: 100vw;
-	height: 10rem;
+	min-height: 10rem;
 }
