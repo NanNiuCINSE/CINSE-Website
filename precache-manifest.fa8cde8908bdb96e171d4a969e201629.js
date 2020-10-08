@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3e1de6843eb8b64660b0bfa7974c1e89",
+    "revision": "22fda701d003b5ccdfe2a98ba009bc72",
     "url": "/CINSE-Website/index.html"
   },
   {
-    "revision": "187144fa497ed339ff09",
+    "revision": "e4e15c1763d3bf8e60f9",
     "url": "/CINSE-Website/static/css/main.d5609348.chunk.css"
   },
   {
-    "revision": "990b819a2ed980320bda",
-    "url": "/CINSE-Website/static/js/2.47f4706b.chunk.js"
+    "revision": "6854bdced9847fb4b828",
+    "url": "/CINSE-Website/static/js/2.514f0707.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/CINSE-Website/static/js/2.47f4706b.chunk.js.LICENSE.txt"
+    "url": "/CINSE-Website/static/js/2.514f0707.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "187144fa497ed339ff09",
-    "url": "/CINSE-Website/static/js/main.d2117e49.chunk.js"
+    "revision": "e4e15c1763d3bf8e60f9",
+    "url": "/CINSE-Website/static/js/main.c438f42c.chunk.js"
   },
   {
     "revision": "f2a9dd4f7cc42b1cfdad",
