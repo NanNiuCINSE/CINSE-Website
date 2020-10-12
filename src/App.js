@@ -6,6 +6,7 @@ import Members from './components/Members/Members';
 import Footer from './components/Footer/Footer';
 import Project from './components/Projects/Project';
 import Logo from './components/Logo/Logo';
+import MainNews from './components/MainNews/MainNews';
 import { Switch, Route } from 'react-router-dom';
 
 // import Route from 'react-router-dom/Route';
@@ -19,6 +20,7 @@ const App = () => {
 				<Route path='/' component={LandingPage} exact />
 				<Route path='/members' component={Members} exact />
 				<Route path='/projects' component={Project} exact />
+				<Route path='/news' component={MainNews} exact />
 			</Switch>
 			<Footer />
 		</div>
