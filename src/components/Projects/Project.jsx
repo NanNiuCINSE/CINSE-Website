@@ -10,7 +10,7 @@ const Project = () => {
 					<header className='research-header'>
 						Linking the Solo and Social Levels in Software Engineering
 					</header>
-					<p className='research-desc'>
+					<div className='research-desc'>
 						This is an NSF funded project that leverages a foraging-theoretical
 						approach to understanding and improving the software developers’
 						information seeking activities, such as requirements tracing, code
@@ -22,7 +22,7 @@ const Project = () => {
 							Xiaoyu Jin, Wentao Wang, Xuanyi Lin, Mona Assarandarban, Darius
 							Cepulis, and Arushi Gupta.
 						</p>
-						<p className='research-publication'>
+						<div className='research-publication'>
 							<span className='research-member-header'>
 								Publications produced as a result of this research include:
 							</span>
@@ -35,15 +35,15 @@ const Project = () => {
 									pages 17-21.
 								</li>
 							</ul>
-						</p>
-					</p>
+						</div>
+					</div>
 				</div>
 				<div className='research-project'>
 					<header className='research-header'>
 						Automated Generation of Attacks Against x86-Based Embedded System
 						Platforms
 					</header>
-					<p className='research-desc'>
+					<div className='research-desc'>
 						This is a DAGSI funded project that explores automated ways to
 						generate attacks against x86-embedded system platforms.
 						<p className='research-members'>
@@ -52,7 +52,7 @@ const Project = () => {
 							</span>
 							Tyler Westland and Dr. Rashmi Jha.
 						</p>
-					</p>
+					</div>
 				</div>
 			</div>
 		</div>

@@ -5,14 +5,14 @@ import './MainNews.css';
 const MainNews = () => {
 	let { mainNews } = MainNewsData;
 
-	let mainNewsContent = mainNews.map((newsItem) => {
+	let mainNewsContent = mainNews.map((newsItem, index) => {
 		return (
-			<section className='mainnews-section'>
+			<section key={index} className='mainnews-section'>
 				<header className='mainnews-section-header'>{newsItem.year}</header>
 				<div className='mainnews-item-container'>
-					{newsItem.news.map((item) => {
+					{newsItem.news.map((item, index) => {
 						return (
-							<div className='mainnews-item'>
+							<div key={index} className='mainnews-item'>
 								<div className='mainnews-item-imgholder'>
 									{item.newsImage !== null ? (
 										<img className='mainnews-img' src={item.newsImage} />

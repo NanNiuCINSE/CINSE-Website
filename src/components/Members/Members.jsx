@@ -5,9 +5,9 @@ import * as MembersData from './Members.data';
 const Members = () => {
 	const { membersData } = MembersData;
 
-	let memberDiv = membersData.map((member) => {
+	let memberDiv = membersData.map((member, index) => {
 		return (
-			<div className='card-container'>
+			<div className='card-container' key={index}>
 				<div className='card-image'>
 					<img className='profile-image' src={member.imageSource} alt='' />
 				</div>
@@ -16,16 +16,16 @@ const Members = () => {
 						{member.firstname} {member.lastname}
 					</h1>
 					<p className='profile-position'>{member.title}</p>
-					<p className='profile-body'>
+					<div className='profile-body'>
 						{member.description}
 						<p className='profile-work'>
 							Please explore the following articles to learn more about{' '}
 							{member.firstname}'s work:
 						</p>
 						<ul>
-							{member.research.map((item) => {
+							{member.research.map((item, index) => {
 								return (
-									<li>
+									<li key={index}>
 										<a
 											target='blank'
 											className='profile-research'
@@ -38,7 +38,7 @@ const Members = () => {
 								);
 							})}
 						</ul>
-					</p>
+					</div>
 				</div>
 			</div>
 		);
