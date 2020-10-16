@@ -1,7 +1,9 @@
 import React from 'react';
 import './News.css';
+import { Link } from 'react-router-dom';
 
 import * as NewsData from './News.data';
+
 const News = () => {
 	const { newsData, newsHeader } = NewsData;
 	const newsItems = newsData.slice(0, 5).map((item, index) => {
@@ -19,7 +21,9 @@ const News = () => {
 				<div className='news'>
 					<ul>{newsItems}</ul>
 				</div>
-				<button className='newsButton'>...Read More</button>
+				<button className='newsButton'>
+					<Link to='/news'>...Read More</Link>
+				</button>
 			</div>
 		</aside>
 	);
