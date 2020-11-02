@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cinse-website/precache-manifest.1d74a857f8f2d41478c57021adb7b260.js"
+  "/cinse-website/precache-manifest.7061cafb2d419efdabc886569c3a9883.js"
 );
 
 self.addEventListener('message', (event) => {
