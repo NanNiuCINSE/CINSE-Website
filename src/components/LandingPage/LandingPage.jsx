@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import './LandingPage.css';
-import Profile from '../../components/Profile/Profile';
-import SidePublication from '../SidePublication/SidePublication';
+import Profile from './Profile/Profile';
+import SidePublication from './SidePublication/SidePublication';
 
 const LandingPage = () => {
 	return (
