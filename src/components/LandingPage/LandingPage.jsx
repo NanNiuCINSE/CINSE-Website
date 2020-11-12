@@ -1,14 +1,14 @@
 import React, { Fragment } from 'react';
 import './LandingPage.css';
 import Profile from '../../components/Profile/Profile';
-import News from '../../components/News/News';
+import SidePublication from '../SidePublication/SidePublication';
 
 const LandingPage = () => {
 	return (
 		<Fragment>
 			<div className='landing-container'>
 				<Profile />
-				<News />
+				<SidePublication />
 			</div>
 		</Fragment>
 	);

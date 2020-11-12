@@ -3,7 +3,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import LandingPage from './components/LandingPage/LandingPage';
 import Members from './components/Members/Members';
-import Footer from './components/Footer/Footer';
+// import Footer from './components/Footer/Footer';
 import Project from './components/Projects/Project';
 import Logo from './components/Logo/Logo';
 import MainNews from './components/MainNews/MainNews';
@@ -26,7 +26,7 @@ const App = () => {
 				<Route path='/publications' component={Publication} exact />
 				<Route path='/contact' component={Contact} exact />
 			</Switch>
-			<Footer />
+			{/* <Footer /> */}
 		</div>
 	);
 };
