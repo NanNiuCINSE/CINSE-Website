@@ -26,7 +26,6 @@
 
 .sidepub {
 	/* border: 1px solid black; */
-	margin: 1rem;
 	padding: 1rem;
 }
 
@@ -40,9 +39,6 @@
 }
 
 .sidepubButton {
-	/* width: 8rem; */
-	/* height: 2rem; */
-
 	margin: 0rem 0rem 1rem 0rem;
 	background: none;
 	cursor: pointer;
@@ -53,6 +49,7 @@
 	padding: 0.5rem 0.5rem;
 	letter-spacing: 0.1rem;
 	text-decoration: none;
+	border-radius: 1rem;
 }
 
 .sidepub-authors {
@@ -68,10 +65,13 @@
 	font-size: 0.8rem;
 	font-weight: 800;
 	letter-spacing: 0.1rem;
+	background: none;
+	border-radius: 1rem;
 }
 
 .sidepub-explore a {
 	text-decoration: none;
+	color: black;
 }
 
 .sidepub-link {
