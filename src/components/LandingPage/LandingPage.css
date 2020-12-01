@@ -1,11 +1,12 @@
-.logo-container {
-	width: 100vw;
-	height: 10rem;
+.landing-main-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(3, 31.5rem);
+	gap: 1rem;
 }
-
 .landing-container {
 	width: 100vw;
-	height: 31.5rem;
+	/* height: 31.5rem; */
 	display: flex;
 	justify-content: center;
 	align-items: center;

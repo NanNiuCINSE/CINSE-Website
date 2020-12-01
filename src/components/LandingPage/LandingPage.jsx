@@ -1,14 +1,20 @@
 import React, { Fragment } from 'react';
 import './LandingPage.css';
-import Profile from '../../components/Profile/Profile';
-import News from '../../components/News/News';
+import Profile from './Profile/Profile';
+import SidePublication from './SidePublication/SidePublication';
+import NewsSection from './NewsSection/NewsSection';
+import LabPhoto from './LabPhoto/LabPhoto';
 
 const LandingPage = () => {
 	return (
 		<Fragment>
-			<div className='landing-container'>
-				<Profile />
-				<News />
+			<div className='landing-main-container'>
+				<div className='landing-container'>
+					<Profile />
+					<SidePublication />
+				</div>
+				<NewsSection />
+				<LabPhoto />
 			</div>
 		</Fragment>
 	);

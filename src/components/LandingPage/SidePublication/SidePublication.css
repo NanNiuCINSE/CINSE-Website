@@ -1,0 +1,86 @@
+.sidepub-section {
+	width: 45rem;
+	height: 30rem;
+	/* border: 1px solid; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sidepub-container {
+	width: 43rem;
+	height: 26rem;
+	/* border: 1px solid; */
+	border-radius: 1rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.sidepub-header {
+	font-size: 2rem;
+	font-weight: 500;
+	padding-bottom: 0.8rem;
+	border-bottom: 0.1rem solid red;
+	margin: 1rem 1rem 0 1rem;
+}
+
+.sidepub {
+	/* border: 1px solid black; */
+	padding: 1rem;
+}
+
+.sidepub-item {
+	padding-bottom: 0.5rem;
+}
+
+.sidepub-item header {
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+.sidepubButton {
+	margin: 0rem 0rem 1rem 0rem;
+	background: none;
+	cursor: pointer;
+	font-size: 0.9rem;
+	font-weight: 800;
+	color: red;
+	border: 1px solid;
+	padding: 0.5rem 0.5rem;
+	letter-spacing: 0.1rem;
+	text-decoration: none;
+	border-radius: 1rem;
+	font-weight: 300;
+	transition: 0.5s all;
+}
+
+.sidepubButton:hover {
+	color: white;
+	background-color: red;
+}
+
+.sidepub-authors {
+	padding: 0.5rem 0 0.5rem 0;
+}
+.sidepub-author {
+	padding: 0 0 0 0.2rem;
+	text-decoration: none;
+}
+
+.sidepub-explore {
+	padding: 0.5rem 0.6rem;
+	font-size: 0.8rem;
+	font-weight: 800;
+	letter-spacing: 0.1rem;
+	background: none;
+	border-radius: 1rem;
+}
+
+.sidepub-explore a {
+	text-decoration: none;
+	color: black;
+}
+
+.sidepub-link {
+	align-self: center;
+}
