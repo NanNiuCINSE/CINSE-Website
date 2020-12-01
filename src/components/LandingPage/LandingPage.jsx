@@ -8,7 +8,7 @@ import LabPhoto from './LabPhoto/LabPhoto';
 const LandingPage = () => {
 	return (
 		<Fragment>
-			<div class='landing-main-container'>
+			<div className='landing-main-container'>
 				<div className='landing-container'>
 					<Profile />
 					<SidePublication />

@@ -24,3 +24,57 @@
 .section-header:after {
 	margin: 0 0 0 20px;
 }
+
+.news-container {
+	width: 90%;
+	height: 80%;
+	display: flex;
+}
+.news-item {
+	flex: 1;
+	height: 100%;
+	padding: 1rem;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.news-date {
+	font-size: 0.9rem;
+	padding: 0.8rem 0;
+}
+
+.news-headline {
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+.news-headline-link {
+	text-decoration: none;
+	color: black;
+}
+
+.news-headline a:hover {
+	border-bottom: 1px solid;
+}
+
+.news-content {
+	font-size: 1.2rem;
+	/* width: auto; */
+	max-height: 70%;
+	font-weight: 200;
+	text-align: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.news-more-button {
+	padding: 1rem 1rem;
+	font-size: 1.2rem;
+	transition: 0.5s all;
+	margin-bottom: 1rem;
+}
+
+.news-more-button:hover {
+	background-color: red;
+	color: white;
+}

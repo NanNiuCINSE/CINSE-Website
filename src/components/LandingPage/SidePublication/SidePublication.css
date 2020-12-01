@@ -50,6 +50,13 @@
 	letter-spacing: 0.1rem;
 	text-decoration: none;
 	border-radius: 1rem;
+	font-weight: 300;
+	transition: 0.5s all;
+}
+
+.sidepubButton:hover {
+	color: white;
+	background-color: red;
 }
 
 .sidepub-authors {
