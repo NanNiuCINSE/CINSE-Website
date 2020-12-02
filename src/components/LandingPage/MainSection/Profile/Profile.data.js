@@ -1,4 +1,4 @@
-import professor from '../../../resources/Images/nan.jpg';
+import professor from '../../../../resources/Images/nan.jpg';
 
 export const profileData = {
 	name: 'Prof. Nan Niu',
