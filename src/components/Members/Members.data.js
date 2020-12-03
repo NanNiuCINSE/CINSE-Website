@@ -1,6 +1,3 @@
-import stud1 from '../../resources/Images/stud1.jpg';
-import stud2 from '../../resources/Images/stud2.png';
-import stud3 from '../../resources/Images/stud3.png';
 export const membersData = [
 	{
 		firstname: 'Xuanyi',
@@ -17,7 +14,7 @@ export const membersData = [
 				published: 'Computing in Science and Engineering',
 			},
 		],
-		imageSource: stud1,
+		imageSource: 'https://i.imgur.com/lqQB1tn.jpg',
 	},
 	{
 		firstname: 'Mona',
@@ -34,7 +31,7 @@ export const membersData = [
 				published: 'IEEE Trans. Comput. Social Systems',
 			},
 		],
-		imageSource: stud2,
+		imageSource: 'https://i.imgur.com/QK3g5kE.png',
 	},
 	{
 		firstname: 'Wentao',
@@ -56,6 +53,6 @@ export const membersData = [
 				published: 'IEEE Trans. Industrial Informatics',
 			},
 		],
-		imageSource: stud3,
+		imageSource: 'https://i.imgur.com/xx5ABXh.png',
 	},
 ];

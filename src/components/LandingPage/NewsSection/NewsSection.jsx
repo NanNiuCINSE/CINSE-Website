@@ -18,8 +18,8 @@ const NewsSection = () => {
 	return (
 		<section className='section-container'>
 			<header className='section-header'>News</header>
-			<div className='news-container'>{newsItems}</div>
-			<button className='sidepubButton news-more-button'> More News</button>
+			<div className='section-wrapper'>{newsItems}</div>
+			<button className='sidepubButton more-button'> More News</button>
 		</section>
 	);
 };

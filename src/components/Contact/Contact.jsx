@@ -1,6 +1,5 @@
 import React from 'react';
 import './Contact.css';
-import nanNiuImage from '../../resources/Images/nan.jpg';
 
 const Contact = () => {
 	return (
@@ -9,7 +8,10 @@ const Contact = () => {
 				<header className='contact-header'>Contact Information</header>
 				<div className='contact-container'>
 					<div className='contact-image'>
-						<img src={nanNiuImage} alt='' />
+						<img
+							src='https://i.imgur.com/X2ls1J6.jpg'
+							alt='Professor. Nan Niu'
+						/>
 					</div>
 					<h2 className='contact-name'>
 						Nan Niu, <em>Ph.D</em>

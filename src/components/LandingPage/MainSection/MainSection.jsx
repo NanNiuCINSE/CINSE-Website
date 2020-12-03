@@ -6,8 +6,6 @@ import SidePublication from './SidePublication/SidePublication';
 const MainSection = () => {
 	return (
 		<section className='landing-container'>
-			{/* 
-			<SidePublication /> */}
 			<div className='landing-wrapper'>
 				<Profile />
 				<SidePublication />
