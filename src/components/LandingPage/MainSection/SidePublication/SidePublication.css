@@ -1,7 +1,5 @@
 .sidepub-section {
-	width: 45rem;
-	height: 30rem;
-	/* border: 1px solid; */
+	flex: 1;
 	display: flex;
 	justify-content: center;
 	align-items: center;

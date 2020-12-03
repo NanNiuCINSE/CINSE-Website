@@ -1,0 +1,11 @@
+.landing-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.landing-wrapper {
+	width: 90%;
+	height: 100%;
+	display: flex;
+}

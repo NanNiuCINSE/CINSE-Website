@@ -1,5 +1,3 @@
-import professor from '../../../resources/Images/nan.jpg';
-
 export const profileData = {
 	name: 'Prof. Nan Niu',
 	title: 'Computer Science & Informatics',
@@ -11,5 +9,5 @@ export const profileData = {
 					computing. He and his research group are tackling a variety of
 					projects concerning the quality of the software and the productivity
                     of the people who are building software.`,
-	imageSource: professor,
+	imageSource: 'https://i.imgur.com/X2ls1J6.jpg',
 };

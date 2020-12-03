@@ -15,7 +15,11 @@ const MainNews = () => {
 							<div className='mainnews-item'>
 								<div className='mainnews-item-imgholder'>
 									{item.newsImage !== null ? (
-										<img className='mainnews-img' src={item.newsImage} />
+										<img
+											className='mainnews-img'
+											src={item.newsImage}
+											alt='news'
+										/>
 									) : (
 										<div></div>
 									)}

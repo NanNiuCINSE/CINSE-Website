@@ -25,7 +25,7 @@
 	margin: 0 0 0 20px;
 }
 
-.news-container {
+.section-wrapper {
 	width: 90%;
 	height: 80%;
 	display: flex;
@@ -67,7 +67,7 @@
 	text-overflow: ellipsis;
 }
 
-.news-more-button {
+.more-button {
 	padding: 1rem 1rem;
 	font-size: 1.2rem;
 	transition: 0.5s all;
